@@ -2,3 +2,5 @@
 skills/
 skills-lock.json
 debug.log
+
+.vercel
