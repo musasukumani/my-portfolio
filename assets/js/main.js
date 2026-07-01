@@ -230,7 +230,7 @@
     const body = encodeURIComponent(
       `Name: ${data.get('name')}\nEmail: ${data.get('email')}\nPhone: ${data.get('phone') || 'Not provided'}\n\n${data.get('message')}`
     );
-    const mailto = `mailto:hello@musasukumani.dev?subject=${subject}&body=${body}`;
+    const mailto = `mailto:musa.sukumani@gmail.com?subject=${subject}&body=${body}`;
     const message = $(formElement).find('.form-message');
 
     message
